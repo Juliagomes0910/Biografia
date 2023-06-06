@@ -1,0 +1,298 @@
+/*DOCUMENTO CSS*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	border: 1px;
+}
+
+body{
+  	font-family: tahoma;
+  	background-color: #FFFFE0;
+}
+
+header{
+	height: 145px;
+	background-color: #3E9939;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 15px;
+}
+
+header img{
+	width: 115px;
+	height: 115px;
+	margin-left:60px ;
+	border-radius:15px;
+}
+
+header h5{
+	padding-top: 15px;
+	padding-left: 150px;
+	color: #AAE2A7;
+}
+
+nav{
+	height: 60px;
+	width: 655px;
+	display: flex;
+	align-items: center;
+	justify-content: center ;
+	background-color: #AAE2A7;
+	border-radius: 5px;
+	margin-top: 30px;
+	margin-right: 350px;
+}
+
+nav ul li{
+	display: inline-block;
+}
+
+nav ul li a{
+	font-size: 15px;
+	font-family: 'Russo One';
+	color:#3E9939;
+	padding: 20px 60px 20px 60px ;
+	text-decoration: none;]
+	color: #ffffff;
+	transition: 0.4s;
+	font-weight: 700;
+	height: 60px;
+}
+
+nav ul li a:hover{
+	background-color: #ffffff;
+	color:#000000;
+}
+
+
+main{
+	height: 800px;
+	background-color: #FFFFE0;
+}
+.fotos{
+	display: flex;
+	flex-direction: row;
+}
+.box {
+	 width:300px;
+	 height: 400px;
+	 background-color: #B71F1B;
+	 border-radius: 15px;
+	 padding:20px;
+	 margin-top:45px;
+	 margin-left: 95px;
+	 margin-right: 95px;
+	 color: #f0d9c1;
+	 border-style : inset;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+
+}
+
+.box img{
+	border-radius: 15px;
+}
+
+.linha{
+	width:100%;
+	height: 80px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content:center;
+	margin-top: 60px;
+	background-color: #FFDF90;
+	border-bottom: 10px solid #AAE2A7;
+}
+ .linha img{
+ 	margin:0 100px;
+ 	align-items: center;
+ 	margin-bottom: 25px;
+ 	border-radius: 15px;
+ }
+
+
+#trajetoria{
+ height: 600px;
+} 
+
+#trajetoria h5 {
+	background-color: #000;
+	height: 70px;
+	width: 750px;
+	border-radius: 15px;
+	margin-left: 350px;
+	color: #3E9939;
+	background-color:#AAE2A7;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 15px;
+	font-family: 'Russo One';
+}
+#trajetoria h4 {
+	font-size: 25px;
+	font-weight: 800;
+	color: blue;
+	text-align: center;
+	font-family: 'Russo One';
+	color:#3E9939;
+}
+#trajetoria p {
+	display: flex;
+	text-align: center;
+	padding: 20px;
+}
+#trajetoria .texto {
+	width: 900px;
+	height: 500px;
+	background-color: #FFFFE0;
+}
+
+#trajetoria figure {
+	width: 400px;
+	height: 700px;
+	border-radius: 15px;
+}
+#trajetoria figure img {
+	width: 100%;
+	border: 20px solid #B71F1B;
+	border-radius: 15px;
+}
+
+#biografias{
+	height: 600px;
+}
+
+#biografias h5{
+	background-color: #000;
+	height: 70px;
+	width: 750px;
+	border-radius: 15px;
+	margin-left: 350px;
+	color: #3E9939;
+	background-color:#AAE2A7;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 15px;
+	font-family: 'Russo One';
+}
+
+#biografias .minibox {
+	width: 440px;
+	height: 260px;
+	background-color: #FFFFE0 ;
+	border-radius: 10px;
+	padding: 10px ;
+	margin:10px;
+	display: flex;
+	flex-direction: row;
+}
+
+#biografias .minibox1 h4 {
+	font-family:'Russo One';
+	font-size: 23px;
+	margin:10px;
+	color: #3E9939 ;
+}
+
+.minibox1{
+	width: 45%;
+	padding:1%;
+
+}
+
+.minibox2 {
+	width: 50%;
+	padding:1%;
+}
+
+.minibox2 img{
+	height: 100%;
+}
+
+
+.box1 {
+	 width:300px;
+	 height: 400px;
+	 background-color: #B71F1B;
+	 border-radius: 15px;
+	 padding:20px;
+	 margin-top:45px;
+	 margin-left: 95px;
+	 margin-right: 95px;
+	 color: #f0d9c1;
+	 border-style : inset;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 float: right;
+}
+.box1 img{
+	border-radius: 15px;
+}
+
+#musicas {
+	height: 600px;
+}
+
+#musicas .som{
+	color:#3E9939; 
+	font-family: 'Russo One' ;
+	font-size: 20px;
+	margin-left: 200px;
+ }
+
+#musicas .imagem1 {
+	width: 280px;
+	height: 220px;
+	background-color: #B71F1B;
+	margin-top: 250px;
+	border-radius: 15px;
+	padding: 10px;
+}
+
+.imagem1 img{
+	width: 250px;
+	height: 200px;
+}
+ 
+#musicas .imagem2 {
+	width: 280px;
+	height: 320px;
+	background-color: #B71F1B;
+	border-radius: 15px;
+	padding: 10px;
+}
+
+.imagem2 img{
+	width: 250px;
+	height: 300px;
+	align-items: center;
+}
+
+
+footer .linha{
+	width:100%;
+	height: 80px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content:center;
+	margin-top: 40px;
+	background-color: #FFDF90;
+	border-bottom: 10px solid #AAE2A7;
+}
+footer .linha img{
+ 	margin:0 100px;
+ 	align-items: center;
+ 	margin-bottom: 25px;
+ 	border-radius: 15px;
+ }
+
